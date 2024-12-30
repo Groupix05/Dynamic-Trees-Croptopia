@@ -1,0 +1,7 @@
+{
+    "parent": "dtcroptopia:block/fruit/generic/fruit_leaf_age1",
+    "textures": {
+        "particle": "dtcroptopia:block/plum",
+        "fruit": "dtcroptopia:block/plum"
+    }
+}

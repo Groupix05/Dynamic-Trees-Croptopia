@@ -1,0 +1,39 @@
+{
+  "type": "dtcroptopia:generates_on_extra_soil",
+  "extra_soil_for_worldgen": "sand",
+  "family": "oak",
+  "tapering": 0.25,
+  "signal_energy": 10.0,
+  "up_probability": 3,
+  "lowest_branch_height": 3,
+  "growth_rate": 1.2,
+  "leaves_properties": "oak",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+
+  },
+  "seasonal_fruiting_offset": 0.5,
+  "inherit_fruiting_offset_to_fruits": true,
+  "perfect_biomes": { "tags": [ "#is_forest", "#is_overworld" ] },
+  "acceptable_soils": ["dirt_like", "sand_like"],
+  "primitive_saplings": [
+    { "sapling_block": "croptopia:lime_sapling" },
+    {
+      "sapling_item": "croptopia:lime",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "fruits": [
+    "dtcroptopia:lime"
+  ],
+  "features": [
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtcroptopia:lime",
+        "fruiting_radius": 6
+      }
+    }
+  ]
+}

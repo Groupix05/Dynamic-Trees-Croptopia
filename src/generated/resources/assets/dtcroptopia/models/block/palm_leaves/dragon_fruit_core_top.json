@@ -1,0 +1,6 @@
+{
+  "parent": "dtcroptopia:block/smartmodel/dragon_fruit_core_top",
+  "textures": {
+    "frond": "dtcroptopia:block/palm_leaves/dragon_fruit_frond"
+  }
+}

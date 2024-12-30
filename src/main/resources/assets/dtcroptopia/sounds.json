@@ -1,0 +1,9 @@
+{
+  "falling_fruit.bonk": {
+    "category": "blocks",
+    "subtitle": "subtitle.dtcroptopia.falling_fruit.bonk",
+    "sounds": [{
+      "name": "dtcroptopia:blocks/fruit/bonk"
+    }]
+  }
+}

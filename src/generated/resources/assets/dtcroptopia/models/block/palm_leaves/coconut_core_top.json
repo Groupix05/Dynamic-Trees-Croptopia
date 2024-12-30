@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:block/smartmodel/palm/core_top",
+  "textures": {
+    "frond": "dtcroptopia:block/palm_leaves/coconut_frond"
+  }
+}

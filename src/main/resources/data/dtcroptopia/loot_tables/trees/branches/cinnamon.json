@@ -1,0 +1,76 @@
+{
+  "type": "dynamictrees:branches",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dynamictrees:multiply_sticks_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "minecraft:stick"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "dynamictrees:multiply_logs_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "croptopia:cinnamon_log"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "dynamictrees:multiply_logs_count"
+                },
+                {
+                  "function": "dynamictrees:multiply_count",
+                  "multiplier": 4.5
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "croptopia:cinnamon"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dtcroptopia:trees/branches/cinnamon"
+}

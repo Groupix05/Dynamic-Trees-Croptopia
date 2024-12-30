@@ -1,0 +1,11 @@
+{
+  "common_leaves": "dtcroptopia:cinnamon",
+  "common_species": "dtcroptopia:cinnamon",
+  "primitive_log": "croptopia:cinnamon_log",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 8,
+  "texture_overrides": {
+    "branch": "croptopia:block/cinnamon_log",
+    "branch_top": "block/jungle_log_top"
+  }
+}

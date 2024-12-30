@@ -1,0 +1,7 @@
+{
+    "parent": "dtcroptopia:block/fruit/generic/cross_age0",
+    "textures": {
+        "particle": "dtcroptopia:block/peach",
+        "fruit": "dtcroptopia:block/peach"
+    }
+}

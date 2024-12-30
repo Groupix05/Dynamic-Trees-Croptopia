@@ -1,0 +1,86 @@
+[
+  {
+    "__comment": "Plains biome",
+    "select": {
+      "tags": ["#forge:is_plains", "!#forge:is_snowy", "!#forge:is_cold", "#minecraft:is_overworld", "!#forge:is_spooky", "!#forge:is_rare"]
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 40,
+          "dynamictrees:apple_oak": 3,
+          "dtcroptopia:peach": 1,
+          "dtcroptopia:orange": 2
+        }
+      }
+    }
+  },
+  {
+    "__comment": "Forest biome (without dark forest)",
+    "select": {
+      "tags": ["#minecraft:is_forest", "!#forge:is_coniferous", "#minecraft:is_overworld", "!#forge:is_spooky", "!#forge:is_rare"]
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 350,
+          "dtcroptopia:apricot": 1,
+          "dtcroptopia:avocado": 1,
+          "dtcroptopia:cherry": 1,
+          "dtcroptopia:lemon": 1,
+          "dtcroptopia:lime": 1,
+          "dtcroptopia:orange": 1,
+          "dtcroptopia:pear": 1,
+          "dtcroptopia:persimmon": 1,
+          "dtcroptopia:plum": 1,
+          "dtcroptopia:starfruit": 1,
+          "dtcroptopia:nectarine": 1
+        }
+      }
+    }
+  },
+  {
+    "__comment": "Dark Forest biome",
+    "select": {
+      "tags": ["#minecraft:is_forest", "!#forge:is_coniferous", "#minecraft:is_overworld", "#forge:is_spooky", "!#forge:is_rare"]
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 150,
+          "dtcroptopia:almond": 1,
+          "dtcroptopia:cashew": 1,
+          "dtcroptopia:pecan": 1,
+          "dtcroptopia:walnut": 1
+        }
+      }
+    }
+  },
+  {
+    "__comment": "Jungle biome",
+    "select": {
+      "tags": ["#minecraft:is_jungle", "#minecraft:is_overworld", "!#forge:is_spooky", "!#forge:is_rare"]
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 260,
+          "dtcroptopia:banana": 1,
+          "dtcroptopia:cinnamon": 1,
+          "dtcroptopia:coconut": 1,
+          "dtcroptopia:date": 1,
+          "dtcroptopia:dragon_fruit": 1,
+          "dtcroptopia:fig": 1,
+          "dtcroptopia:grapefruit": 1,
+          "dtcroptopia:mango": 1,
+          "dtcroptopia:nutmeg": 1,
+          "dtcroptopia:kumquat": 1
+        }
+      }
+    }
+  }
+]

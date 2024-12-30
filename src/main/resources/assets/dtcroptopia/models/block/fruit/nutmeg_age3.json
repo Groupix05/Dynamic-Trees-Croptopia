@@ -1,0 +1,7 @@
+{
+	"parent": "dtcroptopia:block/fruit/generic/nut_age3_sided",
+	"textures": {
+		"particle": "dtcroptopia:block/nutmeg",
+		"fruit": "dtcroptopia:block/nutmeg"
+	}
+}

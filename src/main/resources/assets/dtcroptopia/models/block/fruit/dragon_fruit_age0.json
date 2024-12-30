@@ -1,0 +1,7 @@
+{
+	"parent": "dtcroptopia:block/fruit/generic/flower_age0",
+	"textures": {
+		"particle": "dtcroptopia:block/dragon_fruit",
+		"fruit": "dtcroptopia:block/dragon_fruit"
+	}
+}

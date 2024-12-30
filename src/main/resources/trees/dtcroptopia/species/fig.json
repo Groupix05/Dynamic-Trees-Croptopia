@@ -1,0 +1,47 @@
+{
+  "family": "jungle",
+  "tapering": 0.45,
+  "signal_energy": 14.0,
+  "up_probability": 1,
+  "lowest_branch_height": 4,
+  "growth_rate": 0.8,
+  "soil_longevity": 8,
+  "max_branch_radius": 24,
+  "leaves_properties": "jungle",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+
+  },
+  "seasonal_fruiting_offset": 0.5,
+  "inherit_fruiting_offset_to_fruits": true,
+  "perfect_biomes": { "tags": [ "#is_jungle", "#is_overworld" ] },
+  "primitive_saplings": [
+    { "sapling_block": "croptopia:fig_sapling" },
+    {
+      "sapling_item": "croptopia:fig",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "fruits": [
+    "dtcroptopia:fig"
+  ],
+  "features": [
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtcroptopia:fig"
+      }
+    },
+    {
+      "name": "roots",
+      "properties": {
+        "min_trunk_radius": 9,
+        "scale_factor": 20,
+        "level_limit": 4
+      }
+    },
+    "bottom_flare",
+    "mound"
+  ]
+}

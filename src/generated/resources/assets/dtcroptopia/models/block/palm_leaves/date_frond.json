@@ -1,0 +1,6 @@
+{
+  "loader": "dynamictrees:large_palm_fronds",
+  "textures": {
+    "frond": "dtcroptopia:block/palm_leaves/date_frond"
+  }
+}

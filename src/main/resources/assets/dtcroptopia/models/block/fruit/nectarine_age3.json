@@ -1,0 +1,7 @@
+{
+    "parent": "dtcroptopia:block/fruit/generic/fruit_leaf_age3",
+    "textures": {
+        "particle": "dtcroptopia:block/nectarine",
+        "fruit": "dtcroptopia:block/nectarine"
+    }
+}

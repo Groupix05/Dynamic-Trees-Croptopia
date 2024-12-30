@@ -1,0 +1,19 @@
+{
+  "type": "dtcroptopia:fruit_log",
+  "log_drop_item": "croptopia:cinnamon",
+  "log_drop_multiplier": 4.5,
+  "family": "dtcroptopia:cinnamon",
+  "tapering": 0.1,
+  "signal_energy": 14.0,
+  "up_probability": 12,
+  "growth_rate": 1.8,
+  "max_branch_radius": 4,
+  "leaves_properties": "dtcroptopia:cinnamon",
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 0.5,
+    "snowy": 0.3
+  },
+  "perfect_biomes": { "tags": [ "#is_jungle", "#is_overworld" ] },
+  "primitive_sapling": "croptopia:cinnamon_sapling"
+}

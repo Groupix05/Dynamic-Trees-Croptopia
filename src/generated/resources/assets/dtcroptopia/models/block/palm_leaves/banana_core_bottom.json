@@ -1,0 +1,6 @@
+{
+  "parent": "dtcroptopia:block/smartmodel/banana_core_bottom",
+  "textures": {
+    "core_bottom": "dtcroptopia:block/palm_leaves/banana_base"
+  }
+}

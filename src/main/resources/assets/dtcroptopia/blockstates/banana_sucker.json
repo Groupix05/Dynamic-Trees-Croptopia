@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "dtcroptopia:block/banana_sucker" },
+        "facing=west": { "model": "dtcroptopia:block/banana_sucker", "y": 90 },
+        "facing=north": { "model": "dtcroptopia:block/banana_sucker", "y": 180 },
+        "facing=east": { "model": "dtcroptopia:block/banana_sucker", "y": 270 }
+    }
+}

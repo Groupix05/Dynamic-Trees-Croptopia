@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dtcroptopia:block/kumquat",
+		"fruit": "dtcroptopia:block/kumquat"
+	},
+	"elements": [
+		{
+			"from": [6.4, 12, 6.4],
+			"to": [9.6, 16, 9.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.6, 9, 8.4]},
+			"faces": {
+				"north": {"uv": [5, 5, 9, 10], "texture": "#fruit"},
+				"east": {"uv": [5, 5, 9, 10], "texture": "#fruit"},
+				"south": {"uv": [5, 5, 9, 10], "texture": "#fruit"},
+				"west": {"uv": [5, 5, 9, 10], "texture": "#fruit"},
+				"up": {"uv": [5, 0, 9, 4], "texture": "#fruit"},
+				"down": {"uv": [5, 11, 9, 15], "texture": "#fruit"}
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "palm",
+  "family": "dtcroptopia:palm",
+  "tapering": 0.4,
+  "signal_energy": 8.0,
+  "up_probability": 1,
+  "lowest_branch_height": 4,
+  "growth_rate": 0.4,
+  "leaves_properties": "dtcroptopia:date",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 1.1
+  },
+  "seasonal_fruiting_offset": 0.5,
+  "inherit_fruiting_offset_to_pods": true,
+  "perfect_biomes": { "tags": [ "#is_jungle", "#is_overworld" ] },
+  "acceptable_soils": ["dirt_like", "sand_like"],
+  "primitive_saplings": [
+    { "sapling_block": "croptopia:date_sapling" },
+    {
+      "sapling_item": "croptopia:date",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "pods": [
+    "dtcroptopia:date"
+  ],
+  "features": [
+    {
+      "name": "dtcroptopia:palm_fruit",
+      "properties": {
+        "pod": "dtcroptopia:date",
+        "fruiting_radius": 5
+      }
+    }
+  ]
+}

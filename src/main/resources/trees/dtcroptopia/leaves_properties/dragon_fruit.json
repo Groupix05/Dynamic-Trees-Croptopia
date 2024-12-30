@@ -1,0 +1,15 @@
+{
+  "type": "dtcroptopia:dragon_fruit",
+  "primitive_leaves": "jungle_leaves",
+  "cell_kit": "dynamictrees:palm",
+  "color": "@birch",
+  "frond_model_loader": "dynamictrees:small_palm_fronds",
+  "texture_overrides": {
+    "frond": "dtcroptopia:block/palm_leaves/dragon_fruit_frond",
+    "core_bottom": "dtcroptopia:block/palm_leaves/dragon_fruit_base"
+  },
+  "model_overrides": {
+    "core_top": "dtcroptopia:block/smartmodel/dragon_fruit_core_top",
+    "core_bottom": "dtcroptopia:block/smartmodel/dragon_fruit_core_bottom"
+  }
+}

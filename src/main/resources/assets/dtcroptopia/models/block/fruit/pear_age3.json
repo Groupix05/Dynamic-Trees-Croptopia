@@ -1,0 +1,7 @@
+{
+	"parent": "dtcroptopia:block/fruit/generic/pear_age3",
+	"textures": {
+		"particle": "dtcroptopia:block/pear",
+		"fruit": "dtcroptopia:block/pear"
+	}
+}

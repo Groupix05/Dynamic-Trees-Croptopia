@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "dtcroptopia:block/saplings/banana" },
+      { "model": "dtcroptopia:block/saplings/banana", "y": 90 },
+      { "model": "dtcroptopia:block/saplings/banana", "y": 180 },
+      { "model": "dtcroptopia:block/saplings/banana", "y": 270 }
+    ]
+  }
+}

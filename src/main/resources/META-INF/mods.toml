@@ -1,0 +1,53 @@
+license="MIT"
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Groupix05/Dynamic-Trees-Croptopia/issues"
+
+[[mods]]
+modId="dtcroptopia"
+version="${file.jarVersion}"
+displayName="Dynamic Trees for Croptopia"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-croptopia-new"
+logoFile="logo.png"
+credits="Groupix05, Max Hyper, ChefExperte and HawkSteak"
+authors="Max Hyper"
+description='''
+Compatibility Mod between Dynamic Trees and Croptopia
+This addon uses a lot of assets from DT PHC2
+'''
+
+[[dependencies.dtcroptopia]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtcroptopia]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtcroptopia]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="[1.20.1-1.3.0-BETA4,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtcroptopia]]
+    modId="dynamictreesplus"
+    mandatory=false
+    versionRange="[1.20.1-1.2.0-BETA1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtcroptopia]]
+    modId = "croptopia"
+    mandatory = true
+    versionRange = "[3.0.4,)"
+    ordering = "AFTER"
+    side = "BOTH"
+

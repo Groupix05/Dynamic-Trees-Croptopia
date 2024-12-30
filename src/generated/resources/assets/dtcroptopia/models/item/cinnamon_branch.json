@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "croptopia:block/cinnamon_log",
+    "rings": "croptopia:block/cinnamon_log_top"
+  }
+}
