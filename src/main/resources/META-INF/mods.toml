@@ -9,8 +9,8 @@ version="${file.jarVersion}"
 displayName="Dynamic Trees for Croptopia"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-croptopia-new"
 logoFile="logo.png"
-credits="Groupix05, Max Hyper, ChefExperte and HawkSteak"
-authors="Max Hyper"
+credits="ChefExperte and HawkSteak"
+authors="Max Hyper, Groupix05"
 description='''
 Compatibility Mod between Dynamic Trees and Croptopia
 This addon uses a lot of assets from DT PHC2
